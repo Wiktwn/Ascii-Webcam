@@ -11,7 +11,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   capture = createCapture(VIDEO);
   capture.hide();
-  frameRate(60);
+  frameRate(30);
   
   textSize(8);
   fill(255)
